@@ -28,11 +28,15 @@ h5 {
     font-weight : bold;
 }
 
+nav{
+    position : sticky ;
+    top : 0px;
+    background : white;
+    text-align : center;
+}
+
 nav ul{
     list-style-type : none;
-    width : 95%;
-    margin-left : auto;
-    margin-right : auto;
 }
 
 nav li{
@@ -49,7 +53,6 @@ nav a{
 }
 
 #front-page-article-pic {
-margin : 1em ;
 width : 100% ;
 height : auto ;
 }
@@ -65,7 +68,8 @@ p {
 }
 
 .more-articles img{
-    width : 85%;
+    width : 100%;
+    height : auto;
     margin-right : auto;
     margin-left : auto;
    margin-bottom : 0.5em;
